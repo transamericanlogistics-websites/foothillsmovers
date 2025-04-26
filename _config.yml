@@ -1,0 +1,22 @@
+title: "Foothills Movers"
+description: "Professional moving services in the Foothills region"
+url: "https://transamericanlogistics-websites.github.io/foothills-movers"
+
+author:
+  name: "Foothills Movers"
+  email: "info@foothillsmovers.com"
+
+baseurl: "" # leave blank unless serving from a subpath
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include:
+  - _pages
+exclude:
+  - Gemfile.lock
+  - node_modules

@@ -1,22 +1,28 @@
+# Theme and site settings
+
 title: "Foothills Movers"
-description: "Professional moving services in the Foothills region"
+primary_color: "#FF8C00"      # Brand orange for headings/buttons
+secondary_bg_color: "#333333" # Dark background for nav/hero
+accent_color: "#FF8C00"       # Accent (same as primary)
+error_color: "#FF3B30"        # Danger
+text_color: "#FFFFFF"         # White text on dark
+border_radius: "12px"
+button_radius: "50px"
+
+# URL settings
+baseurl: ""
 url: "https://transamericanlogistics-websites.github.io/foothills-movers"
 
-author:
-  name: "Foothills Movers"
-  email: "info@foothillsmovers.com"
-
-baseurl: "" # leave blank unless serving from a subpath
-
+# Build settings
 markdown: kramdown
-theme: minima
 
+theme: minima # not used, we embed CSS manually
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 include:
-  - _pages
+  - assets
 exclude:
   - Gemfile.lock
   - node_modules
